@@ -19,6 +19,6 @@ if [ -d "$working_dir" ]; then
     $scilab_dir/scilab-6.1.0/bin/scilab-cli -e \
     "chdir(\"$working_dir\"); clear; clc();"
 else
-    echo "  ERROR: The directory '$working_dir' does not exist.";
+    echo -e "\n\n  ERROR: The directory '$working_dir' does not exist.\n\n";
     exit 1;
 fi
