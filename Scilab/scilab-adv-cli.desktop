@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Scilab Advanced CLI
+# Replace '6.1.0' with the correct version number.
+Version=6.1.0
+Terminal=false
+Type=Application
+Categories=Graphics;Science;Engineering
+Exec=scilab-adv-cli
+# Replace '6.1.0' with the correct version number.
+Icon=/home/mfcarlo/Documents/Database/Software/Science/Mathematics/Scilab/scilab-6.1.0/share/icons/hicolor/256x256/apps/scilab.png

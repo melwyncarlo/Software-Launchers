@@ -1,0 +1,10 @@
+#!/bin/sh
+
+wget -q --spider localhost
+
+if [ $? -ne 0 ] ; then
+    sudo /opt/lampp/lampp start;
+else
+    sudo /opt/lampp/lampp stop;
+fi
+

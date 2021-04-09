@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo cp scilab.desktop /usr/share/applications/scilab.desktop
+sudo cp scilab-cli.desktop /usr/share/applications/scilab-cli.desktop
+sudo cp scilab-adv-cli.desktop /usr/share/applications/scilab-adv-cli.desktop
+
+sudo cp scilab /usr/bin/scilab
+sudo cp scilab-cli /usr/bin/scilab-cli
+sudo cp scilab-adv-cli /usr/bin/scilab-adv-cli

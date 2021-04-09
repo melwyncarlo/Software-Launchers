@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This may be changed as appropriate.
+scilab_dir="/home/mfcarlo/Documents/Database/Software/Science\
+/Mathematics/Scilab";
+# This may be changed as per preference.
+default_working_dir="$HOME";
+
+
+working_dir=$1;
+
+if [ -z $1 ]; then
+    working_dir=$default_working_dir;
+fi
+
+# Replace '6.1.0' with the correct version number.
+if [ -d "$working_dir" ]; then
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY \
+    $scilab_dir/scilab-6.1.0/bin/scilab -e \
+    "chdir(\"$working_dir\"); clear; clc();"
+else
+    echo "  ERROR: The directory '$working_dir' does not exist.";
+    exit 1;
+fi
