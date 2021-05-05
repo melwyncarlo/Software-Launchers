@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright 2021 Melwyn Francis Carlo
+
 sudo cp scilab.desktop /usr/share/applications/scilab.desktop
 sudo cp scilab-cli.desktop /usr/share/applications/scilab-cli.desktop
 sudo cp scilab-adv-cli.desktop /usr/share/applications/scilab-adv-cli.desktop

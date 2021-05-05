@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright 2021 Melwyn Francis Carlo
+
 # This may be changed as appropriate.
 scilab_dir="/home/mfcarlo/Documents/Database/Software/Science\
 /Mathematics/Scilab";

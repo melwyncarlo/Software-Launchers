@@ -1,3 +1,5 @@
 #!/bin/bash
 
+# Copyright 2021 Melwyn Francis Carlo
+
 sudo cp xampp /usr/bin/xampp
